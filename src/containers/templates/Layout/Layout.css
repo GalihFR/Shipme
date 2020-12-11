@@ -1,0 +1,90 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .trigger:hover {
+    color: #CDB06C;
+  }
+  
+  .logo {
+    height: 10vh;
+    /* background: rgba(255, 255, 255, 0.3); */
+    background-image: url("../../../assets/images/logos/logoshipme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 16px;
+  }
+  
+  /* .sider{
+    overflow: auto;
+    height: 100vh;
+    left: 0;
+  } */
+  
+  .sider-container{
+    background-color: #002753;
+  }
+  
+  
+  /* =================================custom sidebar============================== */
+  /* this is for sider-container */
+  .ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+    color: rgba(255, 255, 255, 0.65);
+    background: #002753;
+  }
+  
+  /* this is for box container menuitem active */
+  .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: transparent;
+  }
+  
+  /* this is for text active */
+  .ant-menu-dark .ant-menu-item-selected > a, .ant-menu-dark .ant-menu-item-selected > span > a, .ant-menu-dark .ant-menu-item-selected > a:hover, .ant-menu-dark .ant-menu-item-selected > span > a:hover {
+    color: #CDB06C;
+  }
+  
+  /* this is for icon active */
+  .ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon, .ant-menu-dark .ant-menu-item-selected .anticon {
+    color: #CDB06C;
+  }
+  
+  /* this is for text active */
+  .ant-menu-dark .ant-menu-item:hover > a, .ant-menu-dark .ant-menu-item-active > a, .ant-menu-dark .ant-menu-submenu-active > a, .ant-menu-dark .ant-menu-submenu-open > a, .ant-menu-dark .ant-menu-submenu-selected > a, .ant-menu-dark .ant-menu-submenu-title:hover > a, .ant-menu-dark .ant-menu-item:hover > span > a, .ant-menu-dark .ant-menu-item-active > span > a, .ant-menu-dark .ant-menu-submenu-active > span > a, .ant-menu-dark .ant-menu-submenu-open > span > a, .ant-menu-dark .ant-menu-submenu-selected > span > a, .ant-menu-dark .ant-menu-submenu-title:hover > span > a {
+    color: #CDB06C;
+  }
+  /* .ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon + span, .ant-menu-dark .ant-menu-item-selected .anticon + span {
+    color: #CDB06C;
+  } */
+  
+  /* this is for icon menu hover */
+  .ant-menu > .ant-menu-item:hover,
+  .ant-menu > .ant-menu-submenu:hover,
+  .ant-menu > .ant-menu-item-active,
+  .ant-menu> .ant-menu-submenu-active,
+  .ant-menu > .ant-menu-item-open,
+  .ant-menu> .ant-menu-submenu-open,
+  .ant-menu > .ant-menu-item-selected,
+  .ant-menu > .ant-menu-submenu-selected {
+    color: #CDB06C;
+    background-color: transparent;
+  }
+  /* =================================custom sidebar============================== */
+  
+  .site-layout .site-layout-header, .site-layout-content {
+    background: #fff;
+  }
+  
+  .site-layout-header{
+    /* padding: 0; */
+    padding: 0 25px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }

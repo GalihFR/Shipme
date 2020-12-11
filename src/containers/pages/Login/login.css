@@ -1,0 +1,64 @@
+.container{
+    position: relative;
+    background: linear-gradient(71.42deg, #002753 1.39%, #215E7B 93.88%);
+    height: 100vh;
+}
+
+.card-login{
+    min-height: 100vh;
+}
+
+.logo{
+    height: 10vh;
+    width: 10vw;
+    background-image: url("../../../assets/images/logos/logoshipme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-item-custom{
+    margin-bottom: 10px
+}
+
+.label-input, .ant-input-password-icon:hover{
+    color: #CDB06C;
+}
+
+.label-input:hover, .field-input, .field-input:hover, .field-input:focus{
+    color: white;
+}
+
+.ant-input{
+    background-color: transparent;
+    color: white;
+}
+
+.ant-input-password-icon {
+    color: rgb(255 255 255 / 100%);
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    background: #CDB06C;
+    border-color: #CDB06C;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+    background: #d6a941;
+    border-color: #d6a941;
+}
+
+.field-input{
+    background-color: transparent;
+}
+
+.btn-login{
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+.title-form{
+    color: #CDB06C;
+}
+
+.input-form {
+    background-color: transparent;
+    color: black;
+}
+
+.input-form:hover, .input-form:focus, .input-form:visited {
+    border-color: #CDB06C;
+}
